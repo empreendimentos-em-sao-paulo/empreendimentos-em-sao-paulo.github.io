@@ -29,6 +29,7 @@ div {
     margin-top: 15px;
     padding: 2px;
     text-align: center;
+    word-wrap: break-word;
 }
 
 #content_rounded_box {
