@@ -14,18 +14,20 @@ div {
 }
 
 #menu_rounded_box {
-    background-image: -webkit-gradient (linear, right top, left bottom, color-stop(0, #D8DEE8), color-stop(1, #3880FC) );
+    /*background-image: -webkit-gradient (linear, right top, left bottom, color-stop(0, #D8DEE8), color-stop(1, #3880FC) );
     background-image: -o-linear-gradient(left bottom, #D8DEE8 0%, #3880FC 100%);
     background-image: -moz-linear-gradient(left bottom, #D8DEE8 0%, #3880FC 100%);
     background-image: -webkit-linear-gradient(left bottom, #D8DEE8 0%, #3880FC 100%);
     background-image: -ms-linear-gradient(left bottom, #D8DEE8 0%, #3880FC 100%);
-    background-image: linear-gradient(to left bottom, #D8DEE8 0%, #3880FC 100%);
+    background-image: linear-gradient(to left bottom, #D8DEE8 0%, #3880FC 100%);*/
+    background-color: #DAEAF0;
     border-color: #000000;
     border-radius: 10px;
     border-style: solid;
     color: #000000;
     font-family: Bentham;
-    font-size: 30px;
+    font-size: 180%;
+    line-height:1.2;
     margin-top: 15px;
     padding: 2px;
     text-align: center;
@@ -33,18 +35,20 @@ div {
 }
 
 #content_rounded_box {
-    background-image: -webkit-gradient (linear, right top, left bottom, color-stop(0, #D8DEE8), color-stop(1, #3880FC) );
-    background-image: -o-linear-gradient(left bottom, #D8DEE8 0%, #3880FC 100%);
-    background-image: -moz-linear-gradient(left bottom, #D8DEE8 0%, #3880FC 100%);
-    background-image: -webkit-linear-gradient(left bottom, #D8DEE8 0%, #3880FC 100%);
-    background-image: -ms-linear-gradient(left bottom, #D8DEE8 0%, #3880FC 100%);
-    background-image: linear-gradient(to left bottom, #D8DEE8 0%, #3880FC 100%);
+    /*background-image: -webkit-gradient (linear, right top, left bottom, color-stop(0, #F23DDA), color-stop(1, #BFDAE3) );
+    background-image: -o-linear-gradient(left bottom, #F23DDA 0%, #BFDAE3 100%);
+    background-image: -moz-linear-gradient(left bottom, #F23DDA 0%, #BFDAE3 100%);
+    background-image: -webkit-linear-gradient(left bottom, #F23DDA 0%, #BFDAE3 100%);
+    background-image: -ms-linear-gradient(left bottom, #F23DDA 0%, #BFDAE3 100%);
+    background-image: linear-gradient(to left bottom, #F23DDA 0%, #BFDAE3 100%);&*/
+    background-color: #FFFFFF;
     border-color: #000000;
     border-radius: 10px;
     border-style: solid;
-    color: ##000000;
+    color: #000000;
     font-family: Bentham;
-    font-size: 30px;
+    font-size: 180%;
+    line-height:1.2;
     margin-top: 15px;
     padding-left: 5px;
     padding-right: 5px;
