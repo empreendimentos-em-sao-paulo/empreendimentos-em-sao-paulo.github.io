@@ -23,6 +23,7 @@ body {
     padding: 1px;
     text-align: center;
     text-shadow: #000000 3px 3px, #000000 3px 3px;
+    word-wrap: break-word;
 }
 
 #content {
@@ -30,6 +31,13 @@ body {
     font-size: 120%;
     font-weight: bold;
     padding-left: 1em;
+}
+
+.image {
+    display: block;
+    height: auto;
+    margin: 0 auto;
+    max-width: 100%;
 }
 
 .link {

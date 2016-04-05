@@ -28,16 +28,16 @@ function loadIndexContent()
     var contactInfo = "<p>Contatos: <br>corretora Lina: <span style=\"text-decoration: underline;\">linakcorretora@gmail.com</span><br>";
     contactInfo += "corretor Edval: <span style=\"text-decoration: underline;\">edval.corretor@gmail.com</span></p>";
     
-    var images = "<p><img style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima01.jpg\" alt=\"anima_imagem_01\"></p>";
-    images += "<p><img style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima02.jpg\" alt=\"anima_imagem_02\"></p>"
-    images += "<p><img style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima03.jpg\" alt=\"anima_imagem_03\"></p>"
-    images += "<p><img style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima04.jpg\" alt=\"anima_imagem_04\"></p>"
-    images += "<p><img style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima05.jpg\" alt=\"anima_imagem_05\"></p>"
-    images += "<p><img style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima06.jpg\" alt=\"anima_imagem_06\"></p>"
-    images += "<p><img style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima07.jpg\" alt=\"anima_imagem_07\"></p>"
-    images += "<p><img style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima08.jpg\" alt=\"anima_imagem_08\"></p>"
-    images += "<p><img style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima09.jpg\" alt=\"anima_imagem_09\"></p>"
-    images += "<p><img style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima10.jpg\" alt=\"anima_imagem_10\"></p>"
+    var images = "<p><img class=\"image\" style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima01.jpg\" alt=\"anima_imagem_01\"></p>";
+    images += "<p><img class=\"image\" style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima02.jpg\" alt=\"anima_imagem_02\"></p>"
+    images += "<p><img class=\"image\" style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima03.jpg\" alt=\"anima_imagem_03\"></p>"
+    images += "<p><img class=\"image\" style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima04.jpg\" alt=\"anima_imagem_04\"></p>"
+    images += "<p><img class=\"image\" style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima05.jpg\" alt=\"anima_imagem_05\"></p>"
+    images += "<p><img class=\"image\" style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima06.jpg\" alt=\"anima_imagem_06\"></p>"
+    images += "<p><img class=\"image\" style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima07.jpg\" alt=\"anima_imagem_07\"></p>"
+    images += "<p><img class=\"image\" style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima08.jpg\" alt=\"anima_imagem_08\"></p>"
+    images += "<p><img class=\"image\" style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima09.jpg\" alt=\"anima_imagem_09\"></p>"
+    images += "<p><img class=\"image\" style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima10.jpg\" alt=\"anima_imagem_10\"></p>"
     
     contentObject.innerHTML = header + text + contactInfo + images;
 }
@@ -59,14 +59,14 @@ function loadAquaticaContent()
     var contactInfo = "<p>Contatos: <br>corretora Lina: <span style=\"text-decoration: underline;\">linakcorretora@gmail.com</span><br>";
     contactInfo += "corretor Edval: <span style=\"text-decoration: underline;\">edval.corretor@gmail.com</span></p>";
     
-    var images = "<p><img style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"aquatica01.png\" alt=\"aquatica_imagem_01\"></p>";
-    images += "<p><img style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"aquatica02.png\" alt=\"aquatica_imagem_02\"></p>"
-    images += "<p><img style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"aquatica03.png\" alt=\"aquatica_imagem_03\"></p>"
-    images += "<p><img style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"aquatica04.png\" alt=\"aquatica_imagem_04\"></p>"
-    images += "<p><img style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"aquatica05.png\" alt=\"aquatica_imagem_05\"></p>"
-    images += "<p><img style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"aquatica06.png\" alt=\"aquatica_imagem_06\"></p>"
-    images += "<p><img style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"aquatica07.png\" alt=\"aquatica_imagem_07\"></p>"
-    images += "<p><img style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"aquatica08.png\" alt=\"aquatica_imagem_08\"></p>"
+    var images = "<p><img class=\"image\" style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"aquatica01.png\" alt=\"aquatica_imagem_01\"></p>";
+    images += "<p><img class=\"image\" style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"aquatica02.png\" alt=\"aquatica_imagem_02\"></p>"
+    images += "<p><img class=\"image\" style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"aquatica03.png\" alt=\"aquatica_imagem_03\"></p>"
+    images += "<p><img class=\"image\" style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"aquatica04.png\" alt=\"aquatica_imagem_04\"></p>"
+    images += "<p><img class=\"image\" style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"aquatica05.png\" alt=\"aquatica_imagem_05\"></p>"
+    images += "<p><img class=\"image\" style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"aquatica06.png\" alt=\"aquatica_imagem_06\"></p>"
+    images += "<p><img class=\"image\" style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"aquatica07.png\" alt=\"aquatica_imagem_07\"></p>"
+    images += "<p><img class=\"image\" style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"aquatica08.png\" alt=\"aquatica_imagem_08\"></p>"
     
     contentObject.innerHTML = header + text + contactInfo + images;
 }
