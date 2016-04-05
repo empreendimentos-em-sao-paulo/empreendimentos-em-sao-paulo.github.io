@@ -6,7 +6,7 @@
         <script type="text/javascript" src="code.js"></script>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <meta name="description" content="Free katakana, hiragana and kanji generator.">
+        <meta name="description" content="Site sobre empreendimentos em São Paulo.">
         <link rel="stylesheet" type="text/css" href="style.css">
         <!-- Piwik -->
         <script type="text/javascript">
@@ -25,38 +25,16 @@
         <!-- End Piwik Code -->
     </head>
     
-    <body>
-        <div id="banner_rounded_box">
+    <body onload="start();">
+        <div id="banner">
             <h1>Empreendimentos em São Paulo</h1>
         </div>
-        <div id="content_rounded_box">
-            <h2 class="title">Empreendimento Ânima Osasco - Breve Lançamento!</h2>
-            <p>
-                <ul>
-                    <li>apartamentos de 1 e 2 dormitórios, sendo que os de 2 possuem churrasqueira na varanda</li>
-                    <li>1 vaga de garagem livre e coberta</li>
-                    <li>lavanderia coletiva</li>
-                    <li class="italics">Pay Per Use</li>
-                    <li>lazer completo</li>
-                    <li>a 300 metros da estação da CPTM</li>
-                    <li>a partir de R$ 175.900,00</li>
-                    <li>torre única, com um total de 104 unidades</li>
-                    <li>2 elevadores</li>
-                    <li>dimensões do apartamento de 1 dormitório: 30 m²</li>
-                    <li>dimensões do apartamento de 2 dormitórios: 42 m²</li>
-                </ul>
-            </p>
-            <p>Contato: corretora Lina: <span class="email">linakcorretora@gmail.com</span></p>
-            <p><img class="image" src="anima01.jpg" alt="anima_imagem_01"></p>
-            <p><img class="image" src="anima02.jpg" alt="anima_imagem_02"></p>
-            <p><img class="image" src="anima03.jpg" alt="anima_imagem_03"></p>
-            <p><img class="image" src="anima04.jpg" alt="anima_imagem_04"></p>
-            <p><img class="image" src="anima05.jpg" alt="anima_imagem_05"></p>
-            <p><img class="image" src="anima06.jpg" alt="anima_imagem_06"></p>
-            <p><img class="image" src="anima07.jpg" alt="anima_imagem_07"></p>
-            <p><img class="image" src="anima08.jpg" alt="anima_imagem_08"></p>
-            <p><img class="image" src="anima09.jpg" alt="anima_imagem_09"></p>
-            <p><img class="image" src="anima10.jpg" alt="anima_imagem_10"></p>
+        <div id="menu">
+            <ul class="menu_ul">
+                <li class="menu_li"><a class="link" href="#" onclick="loadIndexContent();">Ânima</a></li>
+                <li class="menu_li"><a class="link" href="#" onclick="loadAquaticaContent();">Aquática</a></li>
+            </ul>
         </div>
+        <div id="content"></div>
     </body>
 </html>
