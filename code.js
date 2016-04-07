@@ -25,7 +25,7 @@ function loadIndexContent()
     text += "<li>dimensões do apartamento de 2 dormitórios: 42 m²</li>";
     text += "</ul></p>";
     
-    var contactInfo = "<p>Contatos: <br>corretora Lina: <span style=\"text-decoration: underline;\">linakcorretora@gmail.com</span><br>";
+    var contactInfo = "<p>Contatos: <br>corretora Lina: <span style=\"text-decoration: underline;\">linakcorretora@gmail.com</span><br> (Celular: 11-982459378 (WhatsApp)";
     contactInfo += "corretor Edval: <span style=\"text-decoration: underline;\">edval.corretor@gmail.com</span></p>";
     
     var images = "<p><img class=\"image\" style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"anima01.jpg\" alt=\"anima_imagem_01\"></p>";
@@ -56,7 +56,7 @@ function loadAquaticaContent()
     text += "<li>1 vaga de garagem livre e coberta</li>";
     text += "</ul></p>";
     
-    var contactInfo = "<p>Contatos: <br>corretora Lina: <span style=\"text-decoration: underline;\">linakcorretora@gmail.com</span><br>";
+    var contactInfo = "<p>Contatos: <br>corretora Lina: <span style=\"text-decoration: underline;\">linakcorretora@gmail.com</span><br> (Celular: 11-982459378 (WhatsApp)";
     contactInfo += "corretor Edval: <span style=\"text-decoration: underline;\">edval.corretor@gmail.com</span></p>";
     
     var images = "<p><img class=\"image\" style=\"display: block; height: auto; margin: 0 auto; max-width: 100%; text-align: center;\" src=\"aquatica01.png\" alt=\"aquatica_imagem_01\"></p>";
