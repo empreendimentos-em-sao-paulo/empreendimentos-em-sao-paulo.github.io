@@ -70,3 +70,8 @@ function loadAquaticaContent()
     
     contentObject.innerHTML = header + text + contactInfo + images;
 }
+
+function loadContactForm()
+{
+    contentObject.innerHTML = "<iframe style=\"max-width: 100%; display: block; margin: 0 auto; width: 100%;\" src=\"https://docs.google.com/forms/d/1bjfhzMkzZo2tGkdUE4bivstvyNDQSA5APBjHbyu5xi8/viewform?embedded=true\" width=\"760\" height=\"900\" frameborder=\"0\" marginheight=\"0\" marginwidth=\"0\">Carregando…</iframe>";
+}
