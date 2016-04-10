@@ -49,6 +49,7 @@ body {
 }
 
 .menu_li {
+    /* border-right: thin solid #FFFFFF; */
     display: inline;
 }
 
